@@ -12,10 +12,17 @@ body {
 }
 .nav-bar a {
 	font-family: "Black Han Sans", serif;
-	text-shadow: 2px 2px black;
+    text-shadow: 2px 2px black;
 	text-decoration: none;
+	font-weight: normal;
 	margin-top: 20px;
 	color: orange;
+}
+
+.nav-bar a:hover {
+	color: orange;
+	text-shadow: 5px 5px black;
+	transition: text-shadow 200ms ease-out;
 }
 
 h1 {
@@ -29,6 +36,7 @@ h1 {
 }
 
 .copy {
+	color: black;
 	font-weight: bold;
 	font-size: 1rem;
 	text-shadow: none;

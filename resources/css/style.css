@@ -1,0 +1,35 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background: lightblue;
+}
+
+.nav-bar {
+	display: flex;
+	justify-content: space-evenly;
+}
+.nav-bar a {
+	font-family: "Black Han Sans", serif;
+	text-shadow: 2px 2px black;
+	text-decoration: none;
+	margin-top: 20px;
+	color: orange;
+}
+
+h1 {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	color: orange;
+	font-family: "Black Han Sans", serif;
+	text-shadow: 3px 3px black;
+	font-size: 3rem;
+}
+
+.copy {
+	font-weight: bold;
+	font-size: 1rem;
+	text-shadow: none;
+}

@@ -27,12 +27,13 @@ body {
 }
 
 header {
-	margin-top: 4rem;
+	display: flex;
+	margin: 70px 0px 45px 0px;
+	justify-content: center;
 }
 
 h1 {
 	display: flex;
-	justify-content: center;
 	color: #ffb732;
 	font-family: "Black Han Sans", serif;
 	text-shadow: 3px 3px black;
@@ -47,16 +48,37 @@ h1 {
     text-shadow: 1px 1px 1px #000;
 }
 
-
 main {
-    margin: 0px 20px 0px 20px;
-    padding: 60px 0px 40px 0px;
+	margin: auto;
+    max-width: 90%;
 }
 
+.image {
+	max-width: 50%;
+    margin: 5px -10px 12px 0px;
+	float: left;
+}
 
-p {
+#rlh {
+    width: 90%;
+    border: solid 5px gray;
+}
+
+main a {
+	text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+section {
+}
+
+section p {
 	color: #000;
 	font-size: 0.9rem;
-	line-height: 1.5rem;
+	line-height: 1.6rem;
     font-family: "Roboto Slab", serif;
 }

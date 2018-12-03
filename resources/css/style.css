@@ -53,17 +53,6 @@ main {
     max-width: 90%;
 }
 
-.image {
-	max-width: 50%;
-    margin: 5px -10px 12px 0px;
-	float: left;
-}
-
-#rlh {
-    width: 90%;
-    border: solid 5px gray;
-}
-
 main a {
 	text-decoration: none;
 }
@@ -73,6 +62,21 @@ main a:hover {
     color: aqua;
 }
 
+.image {
+	max-width: 50%;
+    margin: 4px -10px 12px 0px;
+	float: left;
+}
+
+#rlh {
+    width: 90%;
+    border: solid 5px gray;
+}
+
+
+
+
+
 section {
 }
 
@@ -81,4 +85,8 @@ section p {
 	font-size: 0.9rem;
 	line-height: 1.6rem;
     font-family: "Roboto Slab", serif;
+}
+
+.c, .d {
+	margin-top: 20px;
 }

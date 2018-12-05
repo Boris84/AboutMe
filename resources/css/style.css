@@ -19,7 +19,8 @@ body {
 	border-radius: 10px;
 	border: solid #fff 2px;
 	justify-content: space-evenly;
-	background-color: gray;
+	background-color: #989898;
+	
 
 }
 
@@ -74,7 +75,7 @@ h1 {
 
 .main-container a:hover {
     text-decoration: underline;
-    color: aqua;
+    color: blue;
 }
 
 .a  {

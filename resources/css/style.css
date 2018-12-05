@@ -28,7 +28,7 @@ body {
 
 header {
 	display: flex;
-	margin: 70px 0px 45px 0px;
+	margin: 70px 0px 15px 0px;
 	justify-content: center;
 }
 
@@ -48,18 +48,30 @@ h1 {
     text-shadow: 1px 1px 1px #000;
 }
 
-main {
+.main-container {
 	margin: auto;
     max-width: 90%;
 }
 
-main a {
+.main-container a {
 	text-decoration: none;
 }
 
-main a:hover {
+.main-container a:hover {
     text-decoration: underline;
     color: aqua;
+}
+
+.a  {
+	margin-bottom: 30px;
+}
+
+#myStory {
+	color: #ffb732;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 1px #000;
+    font-family:"Black Han Sans", serif;
 }
 
 .image {
@@ -73,11 +85,8 @@ main a:hover {
     border: solid 5px gray;
 }
 
-
-
-
-
-section {
+.c {
+	margin-top: 12px; 
 }
 
 section p {
@@ -87,6 +96,10 @@ section p {
     font-family: "Roboto Slab", serif;
 }
 
-.c, .d {
-	margin-top: 20px;
+#Crohns {
+	color: #ffb732;
+    font-size: 1.8rem;
+    margin: 35px 0px 25px 0px;
+    text-shadow: 2px 2px 1px #000;
+    font-family:"Black Han Sans", serif;
 }

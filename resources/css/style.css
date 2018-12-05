@@ -9,17 +9,17 @@ body {
 
 .nav-bar {
 	top: 0%;
-	width: 90%;
 	right: 5%;
+	width: 90%;
+	height: 7%;
 	z-index: 1;
 	display: flex;
-	height: 7%;
 	position: fixed;
 	padding-bottom: 11px;
 	border-radius: 10px;
 	border: solid #fff 2px;
 	justify-content: space-evenly;
-	background-color: #708090;
+	background-color: gray;
 
 }
 
@@ -42,7 +42,7 @@ body {
 
 header {
 	display: flex;
-	margin: 130px 0px 15px 0px;
+	margin: 130px 0px 30px 0px;
 	justify-content: center;
 }
 
@@ -98,7 +98,7 @@ h1 {
 
 #rlh {
     width: 90%;
-    border: solid 5px gray;
+    border: solid 2px gray;
 }
 
 .c {

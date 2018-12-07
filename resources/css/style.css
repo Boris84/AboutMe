@@ -19,9 +19,7 @@ body {
 	border-radius: 10px;
 	border: solid #fff 2px;
 	justify-content: space-evenly;
-	background-color: #989898;
-	
-
+	background-color: #909090;
 }
 
 .nav-bar a {
@@ -119,4 +117,10 @@ section p {
     margin: 50px 0px 25px 0px;
     text-shadow: 2px 2px 1px #000;
     font-family:"Black Han Sans", serif;
+}
+
+video {
+	float: right;
+	margin-top: 30px;
+	border: solid 2px gray;
 }

@@ -27,12 +27,12 @@ body {
 	text-decoration: none;
 	font-weight: normal;
 	margin-top: 11px;
-	color: #ffb732;
+	color: #fff;
 	max-width: 100%;
 }
 
 .nav-bar a:hover {
-	color: #ffb732;
+	color: lightblue;
 	text-shadow: 5px 5px 5px black;
 	transition: text-shadow 200ms ease-out;
 }
@@ -45,18 +45,22 @@ header {
 
 h1 {
 	display: flex;
-	color: #ffb732;
+	color: #fff;
 	font-family: "Black Han Sans", serif;
 	text-shadow: 3px 3px black;
 	font-size: 3.5rem;
 }
 
 .copy {
-	color: #ffb732;
+	color: #fff;
 	font-weight: bold;
 	font-size: 1rem;
 	text-shadow: none;
     text-shadow: 2px 2px 1px #000;
+}
+
+a:active {
+    color: lightblue;
 }
 
 .main-container {
@@ -66,12 +70,13 @@ h1 {
 }
 
 .main-container a {
+	color: olive;
 	text-decoration: none;
 }
 
 .main-container a:hover {
-    text-decoration: underline;
-    color: blue;
+    text-decoration: none;
+    color: lightblue;
 }
 
 .a  {
@@ -79,7 +84,7 @@ h1 {
 }
 
 #myStory {
-	color: #ffb732;
+	color: #fff;
 	width: 12%;
     font-size: 1.8rem;
     margin-bottom: 25px;
@@ -110,7 +115,7 @@ section p {
 }
 
 #Crohns {
-	color: #ffb732;
+	color: #fff;
     font-size: 1.8rem;
     margin: 50px 0px 25px 0px;
     text-shadow: 2px 2px 1px #000;
@@ -119,10 +124,14 @@ section p {
 
 video {
 	float: right;
-	margin: 35px 0px 35px 35px;
+	margin: 38px 0px 0px 35px;
 	border: solid 5px gray;
 }
 
 .e {
 	margin-top: 30px;
+}
+
+.f {
+    margin-top: 15px;
 }

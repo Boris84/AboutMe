@@ -114,7 +114,7 @@ section p {
     font-family: "Roboto Slab", serif;
 }
 
-#Crohns {
+#Crohns, #mypics {
 	color: #fff;
     font-size: 1.8rem;
     margin: 50px 0px 25px 0px;
@@ -134,4 +134,28 @@ video {
 
 .f {
     margin-top: 15px;
+}
+.setA {
+	max-width: 30%;
+	display: flex;
+	
+}
+
+.setA img {
+	height: 40%;
+	width: 100%;
+	
+} 
+
+.setB {
+	max-width: 30%;
+	display: flex;
+
+	justify-content: center;
+}
+.setB img {
+	height: 40%;
+	width: 100%;
+	
+	
 }

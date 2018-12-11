@@ -43,6 +43,13 @@ header {
 	justify-content: center;
 }
 
+section p {
+	color: #000;
+	font-size: 0.9rem;
+	line-height: 1.6rem;
+    font-family: "Roboto Slab", serif;
+}
+
 h1 {
 	display: flex;
 	color: #fff;
@@ -103,18 +110,29 @@ a:active {
     border: solid 2px gray;
 }
 
-.c {
+.b {
 	margin-top: 12px; 
 }
 
-section p {
-	color: #000;
-	font-size: 0.9rem;
-	line-height: 1.6rem;
-    font-family: "Roboto Slab", serif;
+.credentials a {
+   font-weight: bold;
 }
 
-#Crohns, #mypics {
+.credentials a:hover {
+   text-decoration: underline;
+   text-decoration-color: #000;
+}
+
+.c a {
+   font-weight: bold;
+}
+
+.c a:hover {
+   text-decoration: underline;
+   text-decoration-color: #000;
+}
+
+#crohns, #fcc, #github, #mycarsl {
 	color: #fff;
     font-size: 1.8rem;
     margin: 50px 0px 25px 0px;
@@ -128,34 +146,20 @@ video {
 	border: solid 5px gray;
 }
 
-.e {
+.d {
 	margin-top: 30px;
 }
 
-.f {
+.e {
     margin-top: 15px;
 }
-.setA {
-	max-width: 30%;
-	display: flex;
-	
+
+.f a {
+	font-weight: bold;
 }
 
-.setA img {
-	height: 40%;
-	width: 100%;
-	
-} 
-
-.setB {
-	max-width: 30%;
-	display: flex;
-
-	justify-content: center;
+.f  a:hover {
+    text-decoration: underline;
+    text-decoration-color: #000;
 }
-.setB img {
-	height: 40%;
-	width: 100%;
-	
-	
-}
+

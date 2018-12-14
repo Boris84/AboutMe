@@ -87,10 +87,6 @@ h1 {
     color: lightblue;
 }
 
-.a  {
-	margin-bottom: 30px;
-}
-
 #myStory {
 	color: #fff;
 	width: 12%;
@@ -111,28 +107,6 @@ h1 {
     border: solid 2px gray;
 }
 
-.b {
-	margin-top: 9px; 
-}
-
-.credentials a {
-   font-weight: bold;
-}
-
-.credentials a:hover {
-   text-decoration: underline;
-   text-decoration-color: #000;
-}
-
-#gitlink {
-   font-weight: bold;
-}
-
-#gitlink:hover {
-   text-decoration: underline;
-   text-decoration-color: #000;
-}
-
 #crohns, #fcc, #github, #mycarsl {
 	color: #fff;
     font-size: 1.8rem;
@@ -147,6 +121,14 @@ video {
 	border: solid 5px gray;
 }
 
+.a  {
+	margin-bottom: 30px;
+}
+
+.b {
+	margin-top: 9px; 
+}
+
 .d {
 	margin-top: 30px;
 }
@@ -155,14 +137,28 @@ video {
     margin-top: 15px;
 }
 
-#fc {
-	font-weight: bold;
+#cred, #gitlink, #camp, #cpcrsl {
+   font-weight: bold;
 }
 
-#fc:hover {
+#cred:hover {
    text-decoration: underline;
    text-decoration-color: #000;
 }
 
+#gitlink:hover {
+   text-decoration: underline;
+   text-decoration-color: #000;
+}
+
+#camp:hover {
+   text-decoration: underline;
+   text-decoration-color: #000;
+}
+
+#cpcrsl:hover {
+   text-decoration: underline;
+   text-decoration-color: #000;
+}
 
 

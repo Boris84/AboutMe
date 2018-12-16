@@ -9,9 +9,9 @@ body {
 
 .nav-bar {
 	top: 0;
-	width: 100%;
 	height: 4%;
 	z-index: 1;
+	width: 100%;
 	display: flex;
 	position: fixed;
 	padding-bottom: 11px;
@@ -28,7 +28,7 @@ body {
 	font-weight: normal;
 	margin-top: 11px;
 	color: #fff;
-	max-width: 100%;
+	width: 100%;
 }
 
 .nav-bar a:hover {
@@ -89,7 +89,7 @@ h1 {
 
 #myStory {
 	color: #fff;
-	width: 12%;
+	width: 100%;
     font-size: 1.8rem;
     margin-bottom: 25px;
     text-shadow: 2px 2px 1px #000;
@@ -159,6 +159,41 @@ video {
 #cpcrsl:hover {
    text-decoration: underline;
    text-decoration-color: #000;
+}
+
+
+footer {
+    margin-top: 5%;
+	background: #909090;
+	border-top: solid #fff 2px;
+}
+
+
+footer .main-container {
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	justify-content: space-between;
+}
+
+footer .main-container ul {
+    max-width: 90%;
+}
+
+.terms, .support, .project {
+	color: #fff;
+	font-size: 0.9rem;
+	font-family: "Roboto Slab", serif;
+}
+
+.support li, .terms li, .project li {
+  padding: 5px 0px 5px 0px;
+}
+
+.date {
+	color: #fff;
+	line-height: 6rem;
+	font-size: 0.9rem;
 }
 
 

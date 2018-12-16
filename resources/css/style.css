@@ -161,13 +161,11 @@ video {
    text-decoration-color: #000;
 }
 
-
 footer {
     margin-top: 5%;
 	background: #909090;
 	border-top: solid #fff 2px;
 }
-
 
 footer .main-container {
 	display: flex;
@@ -183,11 +181,12 @@ footer .main-container ul {
 .terms, .support, .project, .security {
 	color: #fff;
 	font-size: 0.9rem;
+	font-weight: normal;
 	font-family: "Roboto Slab", serif;
 }
 
 .support li, .terms li, .project li, .security li {
-  padding: 5px 0px 5px 0px;
+    padding: 6px 0px 6px 0px;
 }
 
 .date {

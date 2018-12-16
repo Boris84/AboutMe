@@ -162,9 +162,9 @@ video {
 }
 
 footer {
-    margin-top: 5%;
+    margin-top: 3%;
 	background: #909090;
-	border-top: solid #fff 2px;
+	border-top: solid #fff 5px;
 }
 
 footer .main-container {
@@ -188,11 +188,3 @@ footer .main-container ul {
 .support li, .terms li, .project li, .security li {
     padding: 6px 0px 6px 0px;
 }
-
-.date {
-	color: #fff;
-	line-height: 6rem;
-	font-size: 0.9rem;
-}
-
-

@@ -6,10 +6,9 @@
   <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
   <link rel="stylesheet" type="text/css" href="resources/css/style.css">
   <title>About Me</title>	
- </head>
-
+</head>
 <body>
-
+  
 <nav class="nav-bar">
   <a href="#myStory" role="button">My Story</a>
   <a href="#github" role="button">Github</a>
@@ -18,8 +17,14 @@
   <a href="#mycarsl" role="button">My Carousel</a>
 </nav>
 <header>
+      <h3>Click the "Submit" button for your intro!</h3>
   <h1>About Me<span class="copy"> &copy;</span></h1>
 </header>
+  <form id="Aboutme" onsubmit="greet(); return false;">
+    <div class="main-container">  
+    <input type="submit"/>
+    </div>
+  </form>
   <div class="main-container">
         <h2 id="myStory">My Story</h2>
     <section class="a"> 
@@ -109,6 +114,13 @@
         <li>&copy; 2019 About Me, Inc.</li>
       </ul>
     </footer>
+
+    <script>
+       function greet() 
+       {
+          alert('Hello, Founders and Coders. Welcome to my One-page Website. I have lots of info for you to read through. Feel free to try out the navigation links and video. I really hope you have a great user experience!!!'); 
+       }
+    </script>
   </body>
   
 </html>

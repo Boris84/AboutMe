@@ -5,7 +5,7 @@ html {
 
 body {
 	width: 100%;
-	background-color: #a8a8a8;
+	color: #a8a8a8;
 }
 
 .nav-bar {
@@ -231,7 +231,7 @@ footer .main-container ul {
        font-size: 1.6rem
 	}
 	section p {
-	   font-size: 0.8rem;
+	   font-size: 0.2rem;
 	   line-height: 1.8rem;
 	}
 	.description {
@@ -258,7 +258,7 @@ footer .main-container ul {
         font-size: 1.6rem
 	}
 	section p {
-	    font-size: 0.8rem;
+	    font-size: 0.2rem;
 	    line-height: 1.8rem;
 	}
 	.description {
@@ -421,7 +421,7 @@ footer .main-container ul {
         font-size: 1.2rem
 	}
 	section p {
-	    font-size: 0.3rem;
+	    font-size: 0.7rem;
 	    line-height: 1.8rem;
 	}
 	.description {
@@ -448,7 +448,7 @@ footer .main-container ul {
         font-size: 0.9rem;
 	}
 	section p {
-	    font-size: 0.3rem;
+	    font-size: 0.5rem;
 	    line-height: 1.8rem;
 	}
 	.description {

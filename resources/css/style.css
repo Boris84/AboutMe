@@ -11,13 +11,12 @@ body {
 .nav-bar {
 	top: 0;
 	z-index: 1;
-	height: 4%;
+	height: 6%;
 	width: 100%;
 	display: flex;
 	position: fixed;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	padding-bottom: 11px;
 	border: solid #fff 2px;
 	background-color: #909090;
 	justify-content: space-evenly;
@@ -103,7 +102,7 @@ section p {
 #myStory {
 	color: #fff;
 	width: 100%;
-    font-size: 0.2rem;
+    font-size: 1.8rem;
     margin-bottom: 25px;
     text-shadow: 2px 2px 1px #000;
     font-family:"Black Han Sans", serif;

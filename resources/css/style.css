@@ -26,8 +26,9 @@ body {
 	font-family: "Black Han Sans", serif;
     text-shadow: 2px 2px 1px #000;
 	text-decoration: none;
+	font-size: 1.2rem;
 	font-weight: normal;
-	line-height: 2.5rem;
+	line-height: 2.7rem;
 	max-width: 100%;
 	color: #fff;
 }

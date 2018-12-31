@@ -26,15 +26,14 @@ body {
 	font-family: "Black Han Sans", serif;
     text-shadow: 2px 2px 1px #000;
 	text-decoration: none;
-	font-size: 1.2rem;
 	font-weight: normal;
-	line-height: 2.7rem;
+	line-height: 2.5rem;
 	max-width: 100%;
 	color: #fff;
 }
 
 .nav-bar a:hover {
-	color: lightblue;
+	color: orange;
 	text-shadow: -2px 5px 3px #000;
 	transition: all 250ms ease-in-out;
 }
@@ -43,7 +42,7 @@ header {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	margin: 130px 0px 20px 0px;
+	margin: 130px 0px 50px 0px;
 }
 
 h3 {
@@ -71,14 +70,14 @@ h1 {
 }
 
 .main-container a {
-	color: olive;
+	color: blue;
 	text-decoration: none;
 	transition: all 150ms ease-in-out;
 }
 
 .main-container a:hover {
-    text-decoration: none;
-    color: lightblue;
+    text-decoration: underline;
+    transition: all 350ms ease-in-out;
 }
 
 section {
@@ -101,7 +100,7 @@ section p {
 }
 
 #myStory {
-	color: #fff;
+	color: orange;
 	width: 100%;
     font-size: 1.8rem;
     margin-bottom: 25px;
@@ -125,7 +124,7 @@ section p {
 }
 
 #crohns, #fCC, #github, #mycarsl {
-	color: #fff;
+	color: orange;
     font-size: 1.8rem;
     margin: 50px 0px 25px 0px;
     text-shadow: 2px 2px 1px #000;
@@ -156,34 +155,20 @@ video {
 	margin-top: 16px;
 }
 
+.g {
+	margin-bottom: 7%;
+}
+
 #cred, #gitlink, #camp, #cpcrsl, #wars {
+   color: red;
    font-weight: bold;
 }
 
-#cred:hover {
+
+#cred, #gitlink, #camp, #cpcrsl. #wars:hover {
    text-decoration: underline;
-   text-decoration-color: #000;
 }
 
-#gitlink:hover {
-   text-decoration: underline;
-   text-decoration-color: #000;
-}
-
-#camp:hover {
-   text-decoration: underline;
-   text-decoration-color: #000;
-}
-
-#cpcrsl:hover {
-   text-decoration: underline;
-   text-decoration-color: #000;
-}
-
-#wars:hover {
-	text-decoration: underline;
-	text-decoration-color: #000;
-}
 
 footer {
     margin-top: 3%;

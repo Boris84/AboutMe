@@ -70,7 +70,7 @@ h1 {
 }
 
 .main-container a {
-	color: blue;
+	color: rebeccapurple;
 	text-decoration: none;
 	transition: all 150ms ease-in-out;
 }

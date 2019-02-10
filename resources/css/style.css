@@ -61,7 +61,7 @@ h1 {
 	color: #fff;
 	font-family: "Black Han Sans", serif;
 	text-shadow: 7px 7px 4px #000;
-	font-size: 3.5rem;
+	font-size: 3.8rem;
 }
 
 .main-container {
@@ -441,7 +441,7 @@ footer .main-container ul {
 		font-size: 0.2rem;
 	}
 	.terms, .support, .project, .security {
-		font-size: 0.3rem;
+		font-size: 0.5rem;
 	}
 }
 

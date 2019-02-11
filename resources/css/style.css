@@ -199,10 +199,15 @@ footer .main-container ul {
 }
 
 
+
+
+
+
     /* MEDIA QUERIES */
 
 /* media queries tablet 820px - 780px */
 @media only screen and (min-width: 780px) and (max-width: 820px) {
+	
 	.nav-bar a {
        font-size: 0.9rem;
 	}
@@ -226,4 +231,5 @@ footer .main-container ul {
 	   font-size: 1.3rem;
 	}
 }
+
 

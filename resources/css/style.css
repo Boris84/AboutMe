@@ -79,6 +79,7 @@ section p {
 	width: 100%;
 	font-size: 0.8rem;
 	line-height: 1.9rem;
+    text-align:justify;
     font-family: "Roboto Slab", serif;
 }
 
@@ -344,6 +345,7 @@ footer .main-container ul {
 	section p {
 	    font-size: 0.7rem;
 	    line-height: 1.5rem;
+	    text-align:justify;
 	}
 
 	.description {

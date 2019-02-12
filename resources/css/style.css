@@ -216,7 +216,6 @@ footer .main-container ul {
 
 	section p {
 	    font-size: 0.8rem;
-	    background: red;
 	}
 
 	.description {
@@ -232,40 +231,6 @@ footer .main-container ul {
 /* media queries tablet (landscape) 800px - 1125px */
 @media only screen and (max-width: 1125px) and (orientation: landscape) {
 	
-	.nav-bar a {
-		font-size: 1rem;
-	}
-
-	h1 {
-		font-size: 3.6rem;
-	}
-
-	header {
-
-	}
-
-	#myStory, #crohns, #fCC, #github, #mycarsl {
-        font-size: 1.6rem;
-	}
-
-	section p {
-	    font-size: 0.7rem;
-	    background: green;
-	}
-
-	.description {
-	    font-size: 0.5rem;
-	}
-
-	.terms, .support, .project, .security {
-        font-size: 0.8rem;
-	}
-}
-
-
-/* media queries tablet (potrait) 800px - 1125px */
-@media only screen and (max-width: 768px) {
-
 	.nav-bar a {
 		font-size: 0.9rem;
 	}
@@ -284,7 +249,6 @@ footer .main-container ul {
 
 	section p {
 	    font-size: 0.7rem;
-	    background: yellow;
 	}
 
 	.description {
@@ -297,15 +261,15 @@ footer .main-container ul {
 }
 
 
-/* media queries tablet (potrait) 480px */
-@media only screen and (max-width: 480px) and (orientation: portrait) {
-	
+/* media queries tablet (potrait) 800px - 1125px */
+@media only screen and (max-width: 768px) {
+
 	.nav-bar a {
-		font-size: 0.1rem;
+		font-size: 0.7rem;
 	}
 
 	h1 {
-		font-size: 3.5rem;
+		font-size: 3.2rem;
 	}
 
 	header {
@@ -313,12 +277,11 @@ footer .main-container ul {
 	}
 
 	#myStory, #crohns, #fCC, #github, #mycarsl {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
 	}
 
 	section p {
 	    font-size: 0.7rem;
-	    background: blue;
 	}
 
 	.description {
@@ -326,6 +289,39 @@ footer .main-container ul {
 	}
 
 	.terms, .support, .project, .security {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+	}
+}
+
+
+/* media queries tablet (potrait) 480px */
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+	
+	.nav-bar a {
+		font-size: 0.5rem;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	header {
+
+	}
+
+	#myStory, #crohns, #fCC, #github, #mycarsl {
+        font-size: 1rem;
+	}
+
+	section p {
+	    font-size: 0.7rem;
+	}
+
+	.description {
+	    font-size: 0.5rem;
+	}
+
+	.terms, .support, .project, .security {
+        font-size: 0.5rem;
 	}
 }

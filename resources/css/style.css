@@ -236,7 +236,7 @@ footer .main-container ul {
 	}
 
 	h1 {
-		font-size: 3.5rem;
+		font-size: 3.4rem;
 	}
 
 	header {
@@ -269,7 +269,7 @@ footer .main-container ul {
 	}
 
 	h1 {
-		font-size: 3.2rem;
+		font-size: 2.9rem;
 	}
 
 	header {
@@ -298,7 +298,7 @@ footer .main-container ul {
 @media only screen and (max-width: 480px) and (orientation: portrait) {
 	
 	.nav-bar a {
-		font-size: 0.5rem;
+		font-size: 0.6rem;
 	}
 
 	h1 {
@@ -322,6 +322,6 @@ footer .main-container ul {
 	}
 
 	.terms, .support, .project, .security {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
 	}
 }

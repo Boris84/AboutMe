@@ -206,16 +206,13 @@ footer .main-container ul {
 		font-size: 3.8rem;
 	}
 
-	header {
-
-	}
-
 	#myStory, #crohns, #fCC, #github, #mycarsl {
         font-size: 1.8rem;
 	}
 
 	section p {
 	    font-size: 0.8rem;
+	    line-height: 1.9rem;
 	}
 
 	.description {
@@ -239,16 +236,13 @@ footer .main-container ul {
 		font-size: 3.4rem;
 	}
 
-	header {
-
-	}
-
 	#myStory, #crohns, #fCC, #github, #mycarsl {
         font-size: 1.5rem;
 	}
 
 	section p {
 	    font-size: 0.7rem;
+	    line-height: 1.7rem;
 	}
 
 	.description {
@@ -268,12 +262,12 @@ footer .main-container ul {
 		font-size: 0.7rem;
 	}
 
+    header {
+	  margin: 120px 0px 40px 0px;
+    }
+
 	h1 {
 		font-size: 2.9rem;
-	}
-
-	header {
-
 	}
 
 	#myStory, #crohns, #fCC, #github, #mycarsl {
@@ -282,10 +276,11 @@ footer .main-container ul {
 
 	section p {
 	    font-size: 0.7rem;
+	    line-height: 1.5rem;
 	}
 
 	.description {
-	    font-size: 0.5rem;
+	    font-size: 0.4rem;
 	}
 
 	.terms, .support, .project, .security {
@@ -302,15 +297,15 @@ footer .main-container ul {
 	}
 	
 	.nav-bar a {
-		font-size: 0.6rem;
-	}
-
-	h1 {
-		font-size: 2.5rem;
+		font-size: 0.5rem;
 	}
 
 	header {
+	  margin: 100px 0px 40px 0px;
+    }
 
+	h1 {
+		font-size: 2.5rem;
 	}
 
 	#myStory, #crohns, #fCC, #github, #mycarsl {
@@ -319,13 +314,14 @@ footer .main-container ul {
 
 	section p {
 	    font-size: 0.7rem;
+	    line-height: 1.5rem;
 	}
 
 	.description {
-	    font-size: 0.5rem;
+	    font-size: 0.3rem;
 	}
 
 	.terms, .support, .project, .security {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
 	}
 }

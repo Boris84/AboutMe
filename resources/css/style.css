@@ -296,6 +296,10 @@ footer .main-container ul {
 
 /* media queries tablet (potrait) 480px */
 @media only screen and (max-width: 480px) and (orientation: portrait) {
+
+	.nav-bar {
+		height: 35px;
+	}
 	
 	.nav-bar a {
 		font-size: 0.6rem;

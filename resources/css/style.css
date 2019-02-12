@@ -138,11 +138,7 @@ video {
 }
 
 .d {
-	margin-top: 30px;
-}
-
-.e {
-	margin-top: 16px;
+	margin-top: 25px;
 }
 
 .g {
@@ -213,6 +209,10 @@ footer .main-container ul {
         font-size: 1.8rem;
 	}
 
+	video {
+	    margin: 38px 0px 25px 35px;
+    }
+
 	section p {
 	    font-size: 0.8rem;
 	    line-height: 1.9rem;
@@ -245,7 +245,12 @@ footer .main-container ul {
 
 	#myStory, #crohns, #fCC, #github, #mycarsl {
         font-size: 1.5rem;
+        margin: 50px 0px 15px 0px;
 	}
+    
+	video {
+	    margin: 35px 0px 20px 35px;
+    }
 
 	section p {
 	    font-size: 0.7rem;
@@ -283,7 +288,12 @@ footer .main-container ul {
 
 	#myStory, #crohns, #fCC, #github, #mycarsl {
         font-size: 1.2rem;
+        margin: 50px 0px 10px 0px;
 	}
+
+	video {
+	    margin: 20px 0px 20px 35px;
+    }
 
 	section p {
 	    font-size: 0.7rem;
@@ -326,6 +336,10 @@ footer .main-container ul {
 	#myStory, #crohns, #fCC, #github, #mycarsl {
         font-size: 1rem;
 	}
+
+	video {
+	    margin: 10px 0px 20px 35px;
+    }
 
 	section p {
 	    font-size: 0.7rem;

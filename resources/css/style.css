@@ -19,7 +19,7 @@ body {
 	overflow-y: hidden;
 	border: solid #fff 2px;
 	background-color: #909090;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 .nav-bar a {

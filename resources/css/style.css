@@ -43,7 +43,7 @@ header {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	margin: 130px 0px 50px 0px;
+	margin: 130px 0px 10px 0px;
 }
 
 h1 {
@@ -94,14 +94,14 @@ section p {
 	color: orange;
 	width: 100%;
     font-size: 1.8rem;
-    margin-bottom: 25px;
+    margin-bottom: -10px;
     text-shadow: 2px 2px 1px #000;
     font-family:"Black Han Sans", serif;
 }
 
 .image {
 	max-width: 50%;
-    margin: 4px 0px 0px 0px;
+	margin-top: 4px;
 	float: left;
 }
 
@@ -117,7 +117,7 @@ section p {
 #crohns, #fCC, #github, #mycarsl {
 	color: orange;
     font-size: 1.8rem;
-    margin: 50px 0px 25px 0px;
+    margin: 50px 0px -10px 0px;
     text-shadow: 2px 2px 1px #000;
     font-family:"Black Han Sans", serif;
 }
@@ -126,7 +126,7 @@ video {
 	float: right;
 	height: auto;
 	max-width: 100%;
-	border: solid 5px gray;
+	border: solid 2px gray;
 	margin: 38px 0px 30px 35px;
 }
 

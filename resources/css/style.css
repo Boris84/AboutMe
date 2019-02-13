@@ -48,7 +48,7 @@ header {
 
 h1 {
 	display: flex;
-	color: #fff;
+	color: white;
 	font-family: "Black Han Sans", serif;
 	text-shadow: 7px 7px 4px #000;
 	font-size: 3.8rem;
@@ -83,8 +83,8 @@ section p {
     font-family: "Roboto Slab", serif;
 }
 
-.copy {
-	color: #fff;
+#copy {
+	color: white;
 	font-weight: bold;
 	font-size: 1rem;
     text-shadow: 2px 2px 1px #000;

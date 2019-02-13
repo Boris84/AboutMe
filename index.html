@@ -17,7 +17,7 @@
   <a href="#mycarsl" role="button">My Carousel</a>
 </nav>
 <header>
-  <h1>About Me<span class="copy"> &copy;</span></h1>
+  <h1 id="about">About Me<span id="copy"> &copy;</span></h1>
   <br>
 </header>
 
@@ -83,8 +83,8 @@
 
   
  <footer>
+
    <div class="main-container">
-     
      <ul class="terms">
         <li>Terms</li>             
         <li>Privacy</li>
@@ -113,10 +113,39 @@
         <li>Security</li>
         <li>&copy;About Me</li>
       </ul>
-    
-     </div>
-    </footer>
+   </div>
 
-  </body>
+ </footer>
+
+    <script>
+ 
+      let title = document.getElementById('about');
+
+      function mySwitch() {
+        if (title.style.color === "white") {
+          title.style.color = "orange";
+        }
+        else {
+          title.style.color = "white";
+        }
+      }
+        window.setInterval(mySwitch, 500);
+
+      
+     let myCopy = document.getElementById('copy');
+
+      function myIcon() {
+        if (myCopy.style.color === "white") {
+          myCopy.style.color = "orange";
+        }
+        else {
+          myCopy.style.color = "white";
+        }
+      }
+     
+        window.setInterval(myIcon, 500);
+   
+    </script>
   
+  </body>
 </html>

@@ -246,7 +246,7 @@ footer .main-container ul {
 
 	#myStory, #crohns, #fCC, #github, #mycarsl {
         font-size: 1.5rem;
-        margin: 50px 0px 15px 0px;
+        margin: 35px 0px -5px 0px;
 	}
     
 	video {
@@ -271,12 +271,17 @@ footer .main-container ul {
 /* media queries tablet (potrait) 800px - 1125px */
 @media only screen and (max-width: 768px) {
 
+     .nav-bar {
+		height: 30px;
+	}
+
 	.nav-bar a {
 		font-size: 0.7rem;
+        line-height: 0.5rem;
 	}
 
     header {
-	  margin: 120px 0px 40px 0px;
+	  margin: 120px 0px 20px 0px;
     }
 
 	h1 {
@@ -289,7 +294,7 @@ footer .main-container ul {
 
 	#myStory, #crohns, #fCC, #github, #mycarsl {
         font-size: 1.2rem;
-        margin: 50px 0px 10px 0px;
+        margin: 30px 0px -5px 0px;
 	}
 
 	video {
@@ -315,11 +320,12 @@ footer .main-container ul {
 @media only screen and (max-width: 480px) and (orientation: portrait) {
 
 	.nav-bar {
-		height: 35px;
+		height: 25px;
 	}
 	
 	.nav-bar a {
 		font-size: 0.5rem;
+		line-height: 0.2rem;
 	}
 
 	header {
@@ -336,6 +342,7 @@ footer .main-container ul {
 
 	#myStory, #crohns, #fCC, #github, #mycarsl {
         font-size: 1rem;
+        margin: 30px 0px -5px 0px;
 	}
 
 	video {
